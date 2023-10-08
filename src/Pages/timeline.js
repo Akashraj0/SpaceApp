@@ -3,7 +3,10 @@ import { TimeLineC } from "./TimeLineC";
 
 function Timeline({ t }) {
   return (
-    <div class="container-fluid py-5">
+    <div
+      class="container-fluid py-5"
+      style={{ justifyContent: "flex-start", alignItems: "flex-start",margin:"auto"  }}
+    >
       <div class="row">
         <div class="col-lg-12">
           <div class="horizontal-timeline">

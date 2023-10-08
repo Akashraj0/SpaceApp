@@ -18,9 +18,9 @@ export const Home = () => {
       </div>
       <div className="Layout">
         <div className="Layout--Box1">
-          <h1>Are you – Someone who still holds the flat-earth theory?</h1>
-          <h1>Someone who believes in the matrix?</h1>
-          <h1>Someone who’s baffled by the theory of relativity? </h1>
+          <h2>Are you – Someone who still holds the flat-earth theory?</h2>
+          <h2>Someone who believes in the matrix?</h2>
+          <h2>Someone who’s baffled by the theory of relativity? </h2>
           <h5>
             Well, you have arrived at the right place. We all wish to be out
             there in the infinite, right? It’s high time that we take you there.
@@ -78,7 +78,7 @@ export const Home = () => {
               engaged in sustainable initiatives.
             </p>
             <h3 style={{ margin: "3rem" }}>
-              THE RIGHT MIX OF ESCAPADE AND EDUCATION
+              The Right Mix Of Escapade And Education
             </h3>
             <p>
               Your cosmic odyssey with Solar Safari leads you into a new era of
@@ -93,9 +93,6 @@ export const Home = () => {
       </div>
       <div className="Layout--Box3">
         <div className="Contact--Box">
-          <div>
-            <img width="30%" src={require("../Image/Rocket.png")} alt="no" />
-          </div>
           <div className="Contact--hyper">
             <h5 style={{ padding: "0.5rem" }}>Navigate</h5>
             <a href="/Home">Home</a>
@@ -103,22 +100,30 @@ export const Home = () => {
             <a href="/Home">About Us</a>
             <a href="/Home">Game</a>
           </div>
+          <div className="footer-comment">
+            <h6>GET IN TOUCH </h6>
+            <h6>Have a question?</h6>
+            <p style={{ fontSize: "12px" }}>
+              Connect with a Safari expert to get started. Whether it is a
+              hyperluminal query (or) a query related to the multiverse (or)
+              careers at Solar Safari, we are here to help.
+              <div style={{ fontSize: "12px" }}>
+                {" "}
+                Headquarters : Esc Avenue, Solar Safari Inc., The Moon.
+              </div>
+              <div style={{ fontSize: "12px" }}> Contact : +MO 1023456789</div>
+              <div style={{ fontSize: "12px" }}>
+                {" "}
+                e-Mail : info@solarsafari.com
+              </div>
+            </p>
+          </div>
           <div className="Contact--hyper">
             <h5 style={{ padding: "0.5rem" }}>Follow Us</h5>
             <a href="/Home">Instagram</a>
             <a href="/Travel">Face Book</a>
             <a href="/Home">Twitter</a>
             <a href="/Home">Threads</a>
-          </div>
-          <div className="footer-comment">
-            <h6>GET IN TOUCH Have a question?</h6>
-            <p style={{ fontSize: "12px" }}>
-              Connect with a Safari expert to get started. Whether it is a
-              hyperluminal query (or) a query related to the multiverse (or)
-              careers at Solar Safari, we are here to help. Headquarters : Esc
-              Avenue, Solar Safari Inc., The Moon. Contact : +MO 1023456789
-              e-Mail : info@solarsafari.com
-            </p>
           </div>
         </div>
       </div>

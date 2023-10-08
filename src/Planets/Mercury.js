@@ -11,57 +11,46 @@ function Mercury() {
   const time = [
     {
       date: "Formation (4.6 billion years ago)",
-      head: "Event One",
       para: "Mercury, like the rest of the solar system, formed from the solar nebula, a rotating disk of gas and dust.",
     },
     {
       date: "Differentiation (4.5 billion years ago)",
-      head: "Event Two",
       para: "During its early history, Mercury underwent a process called differentiation, where heavier elements sank to its core, leaving lighter materials in the outer layers. ",
     },
     {
       date: "Early Bombardment Period (4.1 to 3.8 billion years ago)",
-      head: "Event Three",
       para: "Mercury, like other planets, experienced a period of intense bombardment by asteroids and comets, shaping its surface.",
     },
     {
       date: "Caloris Basin Formation (3.9 billion years ago)",
-      head: "Event Four",
       para: "One of the most prominent features on Mercury's surface is the Caloris Basin, a large impact crater formed around 3.9 billion years ago during the late heavy bombardment.",
     },
     {
       date: "Volcanic Activity (3.5 to 3 billion years ago)",
-      head: "Event Five",
       para: "Languages only differ in their pronunciation and their most common words.",
     },
     {
       date: "Tectonic Activity (1 to 2 billion years ago)",
-      head: "Event Six",
-      para: "Mercury's smooth plains indicate that volcanic activity occurred in its past. The volcanic activity is believed to have ended around 3 billion years ago.",
+     para: "Mercury's smooth plains indicate that volcanic activity occurred in its past. The volcanic activity is believed to have ended around 3 billion years ago.",
     },
     {
       date: "End of Major Geological Activity (1 billion years ago)",
-      head: "Event Seven",
       para: "Mercury's major geological activity, including volcanic and tectonic processes, seems to have largely ceased by around 1 billion years ago.",
     },
     {
       date: "Formation of Hollows (Less than 50 million years ago)",
-      head: "Event Eight",
       para: "The formation of unusual, bright, and irregularly shaped depressions called hollow on Mercury's surface is a relatively recent geological phenomenon, possibly occurring within the last 50 million years.",
     },
     {
       date: "MESSENGER Mission (2004-2015)",
-      head: "Event Nine",
-      para: "NASA's MESSENGER (MErcury Surface, Space ENvironment, GEochemistry, and Ranging) spacecraft, launched in 2004, provided valuable data about Mercury's surface, magnetic field, and composition. It orbited Mercury from 2011 to 2015.",
+     para: "NASA's MESSENGER (MErcury Surface, Space ENvironment, GEochemistry, and Ranging) spacecraft, launched in 2004, provided valuable data about Mercury's surface, magnetic field, and composition. It orbited Mercury from 2011 to 2015.",
     },
     {
       date: "BepiColombo Mission (Launched in 2018)",
-      head: "Event Ten",
       para: "The European Space Agency (ESA) and the Japan Aerospace Exploration Agency (JAXA) launched the BepiColombo mission in 2018 to further study Mercury. It is expected to arrive in orbit around Mercury in the 2020s.",
     },
     {
       date: "Ongoing Exploration and Research (2023 and beyond)",
-      head: "Event Eleven",
       para: "Ongoing and future missions, such as BepiColombo and potentially others, will continue to provide valuable insights into the geological history and composition of Mercury.",
     },
   ];

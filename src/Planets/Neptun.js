@@ -13,47 +13,38 @@ function Neptun() {
   const time = [
     {
       date: "1612",
-      head: "Event One",
       para: "Galileo incorrectly records Neptune as a fixed star during observations with his small telescope.",
     },
     {
       date: "1845",
-      head: "Event Two",
       para: "Astronomers Urbain Jean-Joseph Le Verrier in Paris and John Couch Adams in Cambridge, England, independently calculate the location of this postulated planet. ",
     },
     {
       date: "1846",
-      head: "Event Three",
       para: "Astronomer Johann Gottfried Galle uses the Fraunhofer telescope at the Berlin Observatory and makes the first observations of Neptune, only 1 degree from its calculated position; Moreover, Neptune’s moon, Triton was discovered.",
     },
     {
       date: "1984",
-      head: "Event Four",
       para: "Astronomers find evidence for the existence of a ring system around Neptune.",
     },
     {
       date: "1989",
-      head: "Event Five",
       para: "Voyager 2 becomes the first and only spacecraft to visit Neptune, passing about 4,800 kilometers (2,983 miles) above the planet's north pole.",
     },
     {
       date: "2011",
-      head: "Event Six",
       para: "Neptune completes its first 165-year orbit of the sun since its discovery in 1846.",
     },
     {
       date: "2016",
-      head: "Event Seven",
       para: "Scientists using the Hubble Space Telescope discover a new dark spot on Neptune, the first new atmospheric vortex seen in the 21st century.",
     },
     {
       date: "Formation of Hollows (Less than 50 million years ago)",
-      head: "Event Eight",
       para: "The formation of unusual, bright, and irregularly shaped depressions called hollow on Mercury's surface is a relatively recent geological phenomenon, possibly occurring within the last 50 million years.",
     },
     {
       date: "2022",
-      head: "Event Nine",
       para: "NASA’s James Webb Space Telescope captures the clearest view of Neptune; In addition to several bright, narrow rings, the Webb image clearly shows Neptune’s fainter dust bands in infrared.",
     },
   ];

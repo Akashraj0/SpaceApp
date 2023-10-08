@@ -1,75 +1,88 @@
-.Travel--Layout{
-    padding-top: 3rem;
+.Travel--Layout {
+  padding-top: 3rem;
 }
-.Travel--Box{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    margin-top: 4rem;
+.Travel--Box {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 4rem;
 }
-.Travel--Booking{
-    width: 50%;
-    display: block;
-    padding: 5rem 5rem 5rem 5rem;
-    margin: 5rem 5rem 5rem 3rem;
+.Travel--Booking {
+  width: 50%;
+  display: block;
+  padding: 5rem 5rem 5rem 5rem;
+  margin: 5rem 5rem 5rem 3rem;
 }
-.Travel--Booking form{
-    display: grid;
-    grid-template-columns:repeat(2,1fr);
-    grid-gap: 3rem;
+.Travel--Booking form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
 }
-.Travel--Booking form select,button,input{
-    padding: 0.5rem 0.5rem;
-    background-color: #fff;
-    color: black;
-    border-radius: 10px;
+.Travel--Booking form select,
+button,
+input {
+  padding: 0.5rem 0.5rem;
+  background-color: #fff;
+  color: black;
+  border-radius: 10px;
 }
-.Astronaut{
-    margin-top: 6rem;
-    width: 20%;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
+.Astronaut {
+  margin-top: 6rem;
+  width: 20%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
-.Astronaut_img{
-    transform: rotate3D(360deg);
-    transition: 5s;
+.Astronaut_img {
+  transform: rotate3D(360deg);
+  transition: 5s;
 }
-.Travel-Button{
-    position: relative;
-    display: block;
-    left: 62%;
+.Travel-Button {
+  position: relative;
+  display: block;
+  left: 62%;
 }
-.Astronaut_Rocket{
-    position: relative;
-    left:470px;
-    top:-700px;
-    animation-name: Astronaut_Rocket;
-    animation-duration: 5s;
-    animation-iteration-count:initial;
+.Astronaut_Rocket {
+  position: relative;
+  left: 470px;
+  top: -700px;
+  animation-name: Astronaut_Rocket;
+  animation-duration: 5s;
+  animation-iteration-count: initial;
 }
-.Travel--Discover{
-    margin-top: 18rem;
+.Travel--Discover {
+  margin-top: 18rem;
 }
 
-.Tavel-Link h5{
-    transform: rotateZ(331deg);
-    text-align: right;
+.Tavel-Link h5 {
+  transform: rotateZ(331deg);
+  text-align: right;
 }
 
 .Tavel-Link {
-    /* list-style: none; */
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
+  /* list-style: none; */
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 @keyframes Astronaut_Rocket {
-    0% {left: 0px;top: 0px}
-    100% {left: 470px;top: -700px}
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    left: 470px;
+    top: -700px;
+  }
 }
-.Travel--Box1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap:2rem;
+.Travel--Box1 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  text-align: left;
+}
+option {
+  color: black;
 }

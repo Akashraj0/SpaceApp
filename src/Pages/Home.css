@@ -1,137 +1,143 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&family=Ubuntu&display=swap");
 
-.Layout{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    width: 90%;
-    margin: auto;
-}
-
-.Layout--Box1{
-    margin-top: 11rem;
-    margin-bottom: 5rem;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    text-align: justify;
+.Layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 90%;
+  margin: auto;
 }
 
-.Box--Flex{
-    display: flex;
-    flex-direction: row;
-    color: #FC3D21;
-}
-.Side-text{
-    margin: auto;
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-}
-.side{
-    margin-bottom: 0.5rem;
-    transform: rotate(-90deg);
-    color: white;
-}
-.Layout--Button{
-    padding: 5rem;
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    margin: 0rem 5rem 3rem auto;
-
-}   
-
-.Layout--btn{
-    padding: 0.8rem 1rem 0.8rem 1rem;
-    cursor: pointer;
-    margin: 0.5rem;
-    background-color: white;
-    font-size: medium;
-    font-weight: bold;
-    border-radius: 10px;
+.Layout--Box1 {
+  margin-top: 7.5rem;
+  margin-bottom: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  text-align: justify;
 }
 
-.btn:active{
-    color: black;
-    background-color: white;
-    opacity: 0.5;
+.Box--Flex {
+  display: flex;
+  flex-direction: row;
+  color: #fc3d21;
+}
+.Side-text {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.side {
+  margin-bottom: 0.5rem;
+  transform: rotate(-90deg);
+  color: white;
+}
+.Layout--Button {
+  padding: 5rem;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0rem 5rem 3rem auto;
+}
+.Layout--btn:hover {
+  opacity: 0.8;
 }
 
-.btn:hover{
-    color: black;
-    background-color: white;
-    opacity: 0.3;
+.Layout--btn {
+  padding: 0.8rem 1rem 0.8rem 1rem;
+  cursor: pointer;
+  margin: 0.5rem;
+  background-color: white;
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 10px;
 }
 
-.Rocket{
-    position: relative;
-    top: -50px;
-    animation-name: Rocket;
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
+.btn:active {
+  color: black;
+  background-color: white;
+  opacity: 0.5;
 }
 
-@keyframes Rocket{
-    0% {top: 150px}
-    50% {top: -12px}
-    100% {top: 150px}
+.btn:hover {
+  color: black;
+  background-color: white;
+  opacity: 0.3;
 }
 
-.Layout--Box2{
-    width: 100%;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-}
-.Layout--Box2 h1{
-    margin-top: 1rem;
-    margin-bottom: 5rem;
-    text-align: left;
-    margin-left: 10rem;
-}
-.Box2{
-    margin: auto;
-    width: 60%;
-}
-.Box2 p{
-    margin-top: 2rem;
-    font-size: larger;
-}
-.Layout--Box3{
-    background: url(../Image/footer.svg) #081223 no-repeat;
-    background-size: contain;
-    background-position: left top;
-    padding: 110px 7% 50px;
-    padding-top: 5rem;
-}
-.Layout--Box3 h1{
-    margin-top: 5rem;
-    margin-bottom: 8rem;
-}
-.Contact--Box{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    justify-content: left;
-}
-.Contact--Box img{
-    margin-left: 3rem;
-    margin-top: 3rem;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-}
-.Contact--hyper{
-    text-align: left;
-    margin-bottom: 1rem;
-}
-.Contact--Box a{
-    padding: 0.5rem;
-    display: block;
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-}
-.footer-comment{
-    text-align: left;
-    padding: 0.5rem;
+.Rocket {
+  position: relative;
+  top: -50px;
+  animation-name: Rocket;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
 }
 
+@keyframes Rocket {
+  0% {
+    top: 150px;
+  }
+  50% {
+    top: -12px;
+  }
+  100% {
+    top: 150px;
+  }
+}
+
+.Layout--Box2 {
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.Layout--Box2 h1 {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+.Box2 {
+  margin: auto;
+  width: 60%;
+}
+.Box2 p {
+  margin-top: 2rem;
+  font-size: larger;
+}
+.Layout--Box3 {
+  background: url(../Image/footer.svg) #081223 no-repeat;
+  background-size: contain;
+  background-position: left top;
+  padding: 110px 7% 50px;
+  padding-top: 5rem;
+}
+.Layout--Box3 h1 {
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+}
+.Contact--Box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: left;
+}
+.Contact--Box img {
+  margin-left: 3rem;
+  margin-top: 3rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.Contact--hyper {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.Contact--Box a {
+  padding: 0.5rem;
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.footer-comment {
+  text-align: left;
+  padding: 0.5rem;
+}

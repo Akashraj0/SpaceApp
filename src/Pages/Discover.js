@@ -7,7 +7,7 @@ export const Discover = () => {
       <div>
         <Navigation />
       </div>
-      <h1>Discovery and explore the Solar System</h1>
+      <h1>Explore your Solar System</h1>
       <div className="Discover--Box">
         <div className="Discover--Planet">
           <div>

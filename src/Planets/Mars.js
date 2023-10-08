@@ -14,40 +14,33 @@ export const Mars = () => {
   const time = [
     {
       date: "October 24, 1601: Tycho Dies, Torch Passed to Kepler",
-      head: "Event One",
       para: `Kepler discovered that the orbit of Mars—and those of all the other planets—was an ellipse, not a circle. From there Kepler crafted his laws of planetary motion, which describe how the planets orbit the Sun in the solar system and set the stage for Newton’s description of gravity`,
     },
     {
       date: `August 6, 1672: Polar Ice Cap Observed
       `,
-      head: "Event Two",
       para: `In August 1672 Huygens observed and illustrated a bright spot on Mars, which was later discovered to be a polar ice cap. The question of Martian water would plague scientists centuries later.`,
     },
     {
       date: `July 14, 1965: Encounter with Mariner 4
       `,
-      head: "Event Three",
       para: "Mercury, like other planets, experienced a period of intense bombardment by asteroids and comets, shaping its surface.",
     },
     {
       date: "November 14, 1971: Mariner 9 Comes to Visit",
-      head: "Event Four",
       para: `On November 14, 1971, Mariner 9 became the first spacecraft to orbit a planet when it entered the orbit of Mars. Unexpectedly, Mariner 9 got front-row seats to a planet-wide dust storm. It also discovered major features like volcanoes, canyons, weather, and ice clouds.
       `,
     },
     {
       date: "August 7, 1996: LIFE!…or Something",
-      head: "Event Five",
       para: "While orbiters and landers proved definitively that Mars harbored no humanoids, speculation remained as to whether tiny life-forms such as microbes might be lurking on or beneath Mars’s surface. ",
     },
     {
       date: "Tectonic Activity (1 to 2 billion years ago)",
-      head: "Event Six",
       para: "Mercury's smooth plains indicate that volcanic activity occurred in its past. The volcanic activity is believed to have ended around 3 billion years ago.",
     },
     {
       date: "September 28, 2015: Liquid at Last",
-      head: "Event Seven",
       para: `Another orbiter made history on September 28, 2015, when NASA scientists announced that spectra taken by the Mars Reconnaissance Orbiter showed liquid water flowing on the planet’s surface.
       `,
     },

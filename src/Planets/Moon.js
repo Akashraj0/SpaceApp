@@ -14,52 +14,42 @@ function Moon() {
   const time = [
     {
       date: "1610",
-      head: "Event One",
       para: `Thomas Harriot and Galileo Galilei draw the first telescopic representation of the moon.`,
     },
     {
       date: "1645",
-      head: "Event Two",
-      para: "Michael Florent van Langren makes the first map of the moon.",
+     para: "Michael Florent van Langren makes the first map of the moon.",
     },
     {
       date: "1753",
-      head: "Event Three",
       para: "Roger Joseph Boscovich proves the moon has no atmosphere.",
     },
     {
       date: "1959",
-      head: "Event Four",
       para: "Soviet spacecraft Luna 2 reaches the moon, impacting near the crater Autolycus.",
     },
     {
       date: "1969",
-      head: "Event Five",
       para: "The Apollo 11 mission made the first crewed landing on the moon and returned samples.",
     },
     {
       date: "2008",
-      head: "Event Six",
       para: "India launches its Chandrayaan 1 moon orbiter for chemical, mineralogical and photo-geologic mapping of the Moon.",
     },
     {
       date: "End of Major Geological Activity (1 billion years ago)",
-      head: "Event Seven",
       para: "Mercury's major geological activity, including volcanic and tectonic processes, seems to have largely ceased by around 1 billion years ago.",
     },
     {
       date: "2013",
-      head: "Event Eight",
       para: "NASA’s Lunar Atmosphere and Dust Environment Explorer (LADEE) spacecraft orbits and impacts the Moon to gather information about the lunar atmosphere, and the environmental influences on lunar dust.",
     },
     {
       date: "2022",
-      head: "Event Nine",
       para: "NASA launches CAPSTONE, a pathfinder for Gateway, to help reduce risk for future spacecraft by validating innovative navigation technologies.",
     },
     {
       date: "2023",
-      head: "Event Ten",
       para: "India’s Chandrayaan 3 mission becomes the first to land near the lunar south pole.",
     },
   ];
