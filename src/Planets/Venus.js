@@ -10,32 +10,26 @@ function Venus() {
   const time = [
     {
       date: "Second millennium BCE",
-      head: "Event One",
       para: "Venus has been often referred to as the Evening Star when visible after sunset and the Morning Star when visible before sunrise. Babylonian astronomers recorded these observations of Venus initially.",
     },
     {
       date: "2nd century AD",
-      head: "Event Two",
       para: `Ancient astronomers like Claudius Ptolemy attempted to explain the irregular motion of Venus within the framework of geocentric models.`,
     },
     {
       date: "16th century",
-      head: "Event Three",
       para: "The heliocentric model proposed by Nicolaus Copernicus provided a new perspective on Venus as it orbited the Sun.",
     },
     {
       date: "17th century",
-      head: "Event Four",
       para: `Johannes Kepler's laws of planetary motion, helped explain the elliptical orbits of planets, including Venus, around the Sun.`,
     },
     {
       date: "1989 ",
-      head: "Event Five",
       para: "NASA's Magellan spacecraft, launched in 1989, used radar mapping to provide detailed images of Venus's surface, despite the thick clouds that obscured visible light observations.",
     },
     {
       date: "2005",
-      head: "Event Six",
       para: "The European Space Agency's Venus Express studied Venus's atmosphere and climate.",
     },
   ];

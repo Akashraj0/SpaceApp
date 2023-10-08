@@ -14,32 +14,26 @@ function Uranus() {
   const time = [
     {
       date: "JAN 1, 1600",
-      head: "Event One",
       para: "Early in the history of the planet, scientists believe Uranus was hit by something causing it to change its rotation.",
     },
     {
       date: "SEP 11, 1690",
-      head: "Event Two",
       para: "It was first recorded as a star instead of a planet.",
     },
     {
       date: "MAR 13, 1781",
-      head: "Event Three",
       para: "William Herschel (1738-1822) first recognized it as a comet, but then found it to be a planet.",
     },
     {
       date: "MAR 10, 1977",
-      head: "Event Four",
       para: "Scientists discover that Uranus has a ring system.",
     },
     {
       date: "JAN 17, 1986",
-      head: "Event Five",
       para: "Voyager 2 flew by Uranus in 1986 and detected a magnetic field 50 times stronger than earth’s.",
     },
     {
       date: "DEC 22, 2005",
-      head: "Event Six",
       para: "The Hubble Telescope discovered 2 previously unknown rings of Uranus.",
     },
   ];

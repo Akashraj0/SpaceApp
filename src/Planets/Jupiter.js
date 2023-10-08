@@ -1,3 +1,4 @@
+import { Carousel } from "bootstrap";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import PlanetDetails from "../Pages/PlanetDetails";
@@ -11,40 +12,33 @@ export const Jupiter = () => {
   const time = [
     {
       date: "Ancient Observations",
-      head: "Event One",
       para: `Jupiter has been visible to the naked eye since ancient times and was observed by various cultures. It is one of the five classical planets visible to the naked eye and was known to ancient Babylonian, Greek, and Roman astronomers.`,
     },
     {
       date: "1610",
-      head: "Event Two",
       para: `Galileo Galilei, using a telescope he had constructed, discovered the four largest moons of Jupiter, now known as the Galilean moons (Io, Europa, Ganymede, and Callisto).
       `,
     },
     {
       date: "17th century",
-      head: "Event Three",
       para: `Italian-French astronomer Jean-Dominique Cassini made important observations of Jupiter's Great Red Spot and its rotation period`,
     },
     {
       date: "1970s and 1980s",
-      head: "Event Four",
       para: `NASA's Pioneer 10 and 11, as well as Voyager 1 and 2 spacecraft, conducted flybys of Jupiter, providing close-up images and data about the planet and its moons. These missions offered crucial insights into Jupiter's atmosphere, magnetosphere, and ring system.
       `,
     },
     {
       date: "1995",
-      head: "Event Five",
       para: `The Galileo spacecraft became the first spacecraft to enter orbit around Jupiter in 1995. It extensively studied the planet and its moons, including evidence for a subsurface ocean on Europa.`,
     },
     {
       date: "2016",
-      head: "Event Six",
       para: `NASA's Juno spacecraft entered orbit around Jupiter, and studied its composition, gravity field, magnetic field, and polar magnetosphere.
       `,
     },
     {
       date: "Recent Discoveries",
-      head: "Event Seven",
       para: `Recent observations and analyses, including data from Juno, have revealed new insights into Jupiter's structure, atmospheric dynamics, and magnetic field. The Great Red Spot, a massive storm on Jupiter, has been shrinking, and new storms and features continue to be observed.
       `,
     },
@@ -118,6 +112,15 @@ export const Jupiter = () => {
         {showPlanetDetails && (
           <PlanetDetails img={data.getImageSrc()} des={data.description} />
         )}
+      </div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "left",
+          textAlign: "left",
+          alignItems: "left",
+        }}
+      >
         {showTimeline && <Timeline t={time} />}
       </div>
     </div>

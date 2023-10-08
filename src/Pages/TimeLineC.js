@@ -2,12 +2,16 @@ import React from "react";
 
 export const TimeLineC = ({ date, des, head }) => {
   return (
-    <>
+    <ul
+      style={{
+        justifyContent: "left",
+      }}
+    >
       <li class="list-inline-item items-list">
         <div class="px-4">
           <div
             class="event-date badge bg-info"
-            style={{ padding: "1rem", margin: "1rem" }}
+            style={{ padding: "1rem", margin: "1rem", color: "black" }}
           >
             {date}
           </div>
@@ -24,6 +28,6 @@ export const TimeLineC = ({ date, des, head }) => {
           </p>
         </div>
       </li>
-    </>
+    </ul>
   );
 };

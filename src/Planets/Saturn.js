@@ -13,33 +13,27 @@ function Saturn() {
   const time = [
     {
       date: "JAN 1, 1610",
-      head: "Event One",
       para: `Saturn's Rings seen by Galileo`,
     },
     {
       date: "AUG 30, 1659",
-      head: "Event Two",
       para: `Christian Huygens realized rings were surrounding, not touching the Planet.`,
     },
     {
       date: "SEP 1, 1979",
-      head: "Event Three",
       para: `Pioneer 11 in 1979, flying within 13,700 miles (22,000 kilometers) of Saturn, discovered the planet's outer rings as well as the presence of a strong magnetic field.`,
     },
     {
       date: "JUL 1, 2004",
-      head: "Event Four",
       para: `12 science experiments concerning themselves with Saturn's moons, rings, atmosphere, magnetosphere and Titian's atmosphere.`,
     },
     {
       date: "SEP 2, 2005:",
-      head: "Event Five",
       para: `The Huygens probe successfully landed on Titan, returning images of the surface.
       `,
     },
     {
       date: "JUN 28, 2012",
-      head: "Event Six",
       para: "Cassini Finds Likely Subsurface Ocean on Saturn Moon.",
     },
   ];

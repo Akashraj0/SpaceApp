@@ -23,7 +23,7 @@ const Travel = () => {
       email: Yup.string().email("Invalid email address").required("Required"),
     }),
     onSubmit: (values) => {
-      alert(JSON.stringify(values, null, 2));
+      alert("Your ride has been booked");
     },
   });
   return (
@@ -48,7 +48,7 @@ const Travel = () => {
           <form onSubmit={formik.handleSubmit}>
             <div>
               <input
-                style={{ color: "white" }}
+                style={{ color: "black" }}
                 id="name"
                 type="text"
                 name="name"
@@ -79,11 +79,21 @@ const Travel = () => {
             </div>
             <div>
               <select {...formik.getFieldProps("time")}>
-                <option selected>Time</option>
-                <option value="1">6:00</option>
-                <option value="2">12:00</option>
-                <option value="3">18:00</option>
-                <option value="4">00:00</option>
+                <option style={{ color: "black" }} selected>
+                  Time
+                </option>
+                <option style={{ color: "black" }} value="1">
+                  6:00
+                </option>
+                <option style={{ color: "black" }} value="2">
+                  12:00
+                </option>
+                <option style={{ color: "black" }} value="3">
+                  18:00
+                </option>
+                <option style={{ color: "black" }} value="4">
+                  00:00
+                </option>
               </select>
               {formik.touched.time || formik.errors.time ? (
                 <div style={{ color: "#FC3D21" }}>{formik.errors.time}</div>
@@ -93,7 +103,7 @@ const Travel = () => {
               <select id="depature" {...formik.getFieldProps("depature")}>
                 <option selected>--Depature Destination--</option>
                 <option value="1">Earth</option>
-                <option value="2">Earth Moon</option>
+                <option value="2">Earth's Moon</option>
               </select>
               {formik.touched.depature || formik.errors.depature ? (
                 <div style={{ color: "#FC3D21" }}>{formik.errors.depature}</div>
@@ -103,10 +113,11 @@ const Travel = () => {
               <select id="arrival" {...formik.getFieldProps("arrival")}>
                 <option selected>--Arrival Destination--</option>
                 <option value="1">Earth</option>
+                <option value="1">Sun</option>
                 <option value="2">Saturn</option>
                 <option value="3">Jupiter</option>
                 <option value="4">Venus</option>
-                <option value="5">Neptun</option>
+                <option value="5">Neptune</option>
                 <option value="6">Mercury</option>
                 <option value="7">Mars</option>
                 <option value="8">Uranus</option>
@@ -117,7 +128,7 @@ const Travel = () => {
             </div>
             <div>
               <select id="people" {...formik.getFieldProps("people")}>
-                <option selected>--Number of People--</option>
+                <option selected>--Number of Passengers--</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
@@ -131,7 +142,7 @@ const Travel = () => {
             </div>
             <div>
               <select id="days" {...formik.getFieldProps("days")}>
-                <option selected>--Staying Period--</option>
+                <option selected>--Period of Stay--</option>
                 <option value="1">One Year</option>
                 <option value="2">Two Year</option>
                 <option value="3">Three Year</option>
@@ -141,7 +152,7 @@ const Travel = () => {
               ) : null}
             </div>
             <button type="submit" className="Travel-Button">
-              Submit
+              Book
             </button>
           </form>
         </div>
@@ -151,14 +162,15 @@ const Travel = () => {
           </a>
         </div>
       </div>
-      <div className="Travel--Box1" style={{ padding: "3rem" }}>
+      <div className="Travel--Box1" style={{ padding: "5rem" }}>
         <div>
           <h2 style={{ marginTop: "5rem", marginBottom: "4rem" }}>
             KNOW YOUR TRAVEL
           </h2>
+          <ul></ul>
           <p>
-            Having articulated cuttting-edge research, our stellar journeys are
-            at XXX the relativisitic speed of light.
+            Having articulated cutting-edge research, our stellar journeys are
+            at 90% the relativistic speed of light.
           </p>
           <p>
             You’ll be boarding our moonliner “Nila” for a pitstop at our moon
